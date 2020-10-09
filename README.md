@@ -12,7 +12,8 @@ Iremos aprender três tecnologias front-end, que trabalham no client-side.
 Dentro desse repositório, vou deixar registrado todo o desenvolvimento durando o curso.
 
 # Aula 01 (08/10/2020)
-Introdução a semântica do HTML5, história da internet, modo desenvolvedor do Google Chrome etc ... 
+Introdução a semântica do HTML5, história da internet, modo desenvolvedor do Google Chrome etc ...
+ 
 Apresentada a estrutura básica de um HTML5
 
 ```
