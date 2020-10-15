@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Veiculos</h1>
-</body>
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Fabricante</th>
+          <th>Ano</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- tr: table row (linha da tabela) -->
+        <tr>
+          <!-- td: table data (dado da tabela) -->
+          <td>Civic LXL 1.8</td>
+          <td>Honda</td>
+          <td>2011</td>
+        </tr>
+
+        <tr>
+          <td>Camaro</td>
+          <td rowspan="2">Chevrolet</td>
+          <td>2020</td>
+        </tr>
+
+        <tr>
+          <td>Prisma</td>
+          <td>2020</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">* Consulte condições de pagamento</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
 </html>
