@@ -29,3 +29,11 @@ Apresentada a estrutura básica de um HTML5
 </body>
 </html>
 ```
+
+# Aula 02 (14/10/2020)
+
+Aprendemos como por imagens e mais um pouco de semântica, fiz um GitHub Pages, para visualizar os exercícios da aula. [Acesse aqui!](https://brunopurper.github.io/Target-Trust-HTML5-CSS3-e-JavaScript/)
+
+# Aula 03 (15/10/2020) 
+
+Começamos os estudos de formulários!
