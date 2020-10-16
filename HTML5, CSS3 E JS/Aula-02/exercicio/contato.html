@@ -1,35 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Contatos</h1>
 
     <form method="GET" action="https://www.google.com/search">
-        <input type="text" name="q" placeholder="Pesquisa no Google!">
-        <input type="text" name="nome" placeholder="10 Caractéres" maxlength="10">
-        
+      <input type="text" name="q" placeholder="Pesquisa no Google!" />
+      <input
+        type="text"
+        name="nome"
+        placeholder="10 Caractéres"
+        maxlength="10"
+      />
 
-
-        <button type="submit">ENVIAR DADOS</button>
+      <button type="submit">ENVIAR DADOS</button>
     </form>
 
-    <hr>
+    <hr />
 
     <form method="GET" action="">
-
-        <input type="email" name="email" placeholder="Digite seu email" required>
-        <br>
-        <input type="password" name="senha" id="" placeholder="Digite sua senha">
-        <br>
-        <textarea name="area de texto" id="" cols="30" rows="10"></textarea>
-        <input type="file" name="curriculo">
+      <input
+        type="email"
+        name="email"
+        placeholder="Digite seu email"
+        required
+      />
+      <br />
+      <input
+        type="password"
+        name="senha"
+        id=""
+        placeholder="Digite sua senha"
+      />
+      <br />
+      <textarea name="area de texto" id="" cols="30" rows="10"></textarea>
+      <input type="file" name="curriculo" />
     </form>
 
     <button>Enviar</button>
-    
-</body>
+    <hr />
+    <br />
+
+    <select name="" id="">
+      <option value="">Torres</option>
+      <option value="">Porto Alegre</option>
+      <option value="">Sao Paulo</option>
+    </select>
+
+    <hr />
+    <br />
+    <p>Gênero</p>
+    <input type="radio" name="genero" id="fem" />
+    <label for="fem">Feminino</label>
+    <label>
+      <input type="radio" name="genero" value="Masculino" /> Masculino
+    </label>
+    <hr>
+    <br>
+    <label>
+        <input type="checkbox" name="interesses[]" value="Games"> Games
+    </label>
+    <label for="">
+        <input type="checkbox" name="interesses[]" value="Moda"> Moda
+    </label>
+    <label for="">
+        <input type="checkbox" name="interesses[]" value="Tecnologia"> Tecnologia
+    </label>
+  </body>
 </html>
