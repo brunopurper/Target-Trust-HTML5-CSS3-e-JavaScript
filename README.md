@@ -41,4 +41,6 @@ Exercício misturando tudo que aprendemos até aqui [Acesse aqui!](https://bruno
 
 # Aula 04 (19/10/2020)
 
-Começamos os estudos de CSS
+Começamos os estudos de CSS.
+
+Conceito de DIV, SPAN. ID E CLASSES.
