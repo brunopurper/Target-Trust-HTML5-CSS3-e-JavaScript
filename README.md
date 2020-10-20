@@ -36,4 +36,9 @@ Aprendemos como por imagens e mais um pouco de semântica, fiz um GitHub Pages, 
 
 # Aula 03 (15/10/2020) 
 
-Começamos os estudos de formulários!
+Começamos os estudos de formulários! 
+Exercício misturando tudo que aprendemos até aqui [Acesse aqui!](https://brunopurper.github.io/Target-Trust-HTML5-CSS3-e-JavaScript/HTML5,%20CSS3%20E%20JS/Aula-03/exercicio-mercado/index.html)
+
+# Aula 04 (19/10/2020)
+
+Começamos os estudos de CSS
