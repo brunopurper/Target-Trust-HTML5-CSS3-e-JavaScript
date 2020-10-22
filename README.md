@@ -44,3 +44,10 @@ Exercício misturando tudo que aprendemos até aqui [Acesse aqui!](https://bruno
 Começamos os estudos de CSS.
 
 Conceito de DIV, SPAN. ID E CLASSES.
+
+# Aula 05 (21/10/2020)
+
+border, width, heigth e padding 
+unidades de medidas, %, px, rem. [Artigo sobre isso](https://tableless.com.br/unidade-pixels-em-rem/)
+
+Começamos o projeto prático do portfolio 

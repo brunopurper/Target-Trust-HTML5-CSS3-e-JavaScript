@@ -1,0 +1,7 @@
+:root {
+    --azul-medio: #24263b;
+}
+
+body {
+    background: var(--azul-medio)
+}

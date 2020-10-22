@@ -1,0 +1,49 @@
+body {
+    background: url(../img/parede.jpg) ;
+    background-position: center center;
+    background-size: 100% ;
+    
+    
+}
+
+div {
+    border: 1px solid red;
+    width: 10%;
+    height: 100px;
+    /* top right bottom e left */
+    /* centraliza qualquer elementos bloco e tenha uma largura */
+    margin: 10px auto;
+}
+
+#um {
+    background: #f9f3f5;
+}
+
+#dois {
+    background: orange;
+}
+
+div:hover {
+    border: 3px solid black;
+}
+
+/* Primeiro filho da div um */
+#um span:first-child {
+    color: red;
+}
+
+#um span:last-child {
+    color: green;
+}
+
+/* Escolhe pelo numero do elemento */
+
+#um span:nth-child(2) {
+    color: green;
+}
+
+#dois span:nth-child(odd) {
+    color: white;
+}
+
+
