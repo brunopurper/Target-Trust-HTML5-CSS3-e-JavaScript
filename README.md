@@ -51,3 +51,13 @@ border, width, heigth e padding
 unidades de medidas, %, px, rem. [Artigo sobre isso](https://tableless.com.br/unidade-pixels-em-rem/)
 
 Começamos o projeto prático do portfolio 
+
+# Aula 06 (22/10/2020)
+
+Começamos a ver a semântica do jeito certo do HTML5. 
+
+HEADER: Cabeçalho.
+SECTION: Sessão da página.
+ASIDE: Normalmente usado para colunas.
+NAV: Navegação - menu de um contexto.
+FOOTER: Rodapé da aplicação.

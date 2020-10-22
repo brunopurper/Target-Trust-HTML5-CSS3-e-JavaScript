@@ -1,7 +1,36 @@
 :root {
     --azul-medio: #24263b;
+    --azul-escuro: #1F2235;
 }
 
+
 body {
-    background: var(--azul-medio)
+    background: var(--azul-medio);
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+
+}
+
+header {
+    background: var(--azul-escuro);
+    min-height: 70px;
+    padding: 30px 0;
+}
+
+header div {
+    border: 1px solid red;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* =============================== ESTRUTURA DO MENU DO SITE ======================= */
+
+#menu {
+    border: 1px solid white;
+    float: right;
+}
+
+#menu a {
+    
 }
