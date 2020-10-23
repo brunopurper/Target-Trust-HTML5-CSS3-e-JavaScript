@@ -1,36 +1,63 @@
-:root {
-    --azul-medio: #24263b;
-    --azul-escuro: #1F2235;
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf) format("truetype");
 }
 
+:root {
+  --azul-medio: #24263b;
+  --azul-escuro: #1f2235;
+  --cor-menu-hover: #ff4a57;
+  --cor-menu: #ffffff;
+}
 
 body {
-    background: var(--azul-medio);
-    margin: 0;
-    padding: 0;
-    font-family: Poppins;
-
+  background: var(--azul-medio);
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
 }
 
 header {
-    background: var(--azul-escuro);
-    min-height: 70px;
-    padding: 30px 0;
+  background: var(--azul-escuro);
+  min-height: 70px;
+  padding: 30px 0;
 }
 
 header div {
-    border: 1px solid red;
-    width: 1170px;
-    margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 /* =============================== ESTRUTURA DO MENU DO SITE ======================= */
 
 #menu {
-    border: 1px solid white;
-    float: right;
+  float: right;
 }
 
 #menu a {
-    
+  color: var(--cor-menu);
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  display: inline-block;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+#menu a:hover {
+  color: var(--cor-menu-hover);
+}
+
+#menu a.ativo {
+    background: var(--cor-menu-hover);
+    color: var(--cor-menu);
+
+}
+
+#menu .ativo:hover {
+    color: whitesmoke;
+    box-shadow: -webkit-box-shadow: 13px 10px 10px -1px rgba(0,0,0,0.84);
+    -moz-box-shadow: 13px 10px 10px -1px rgba(0,0,0,0.84);
+    box-shadow: 13px 10px 10px -1px rgba(0,0,0,0.84);;
+
 }

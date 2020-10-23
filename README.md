@@ -61,3 +61,8 @@ SECTION: Sessão da página.
 ASIDE: Normalmente usado para colunas.
 NAV: Navegação - menu de um contexto.
 FOOTER: Rodapé da aplicação.
+
+Display block
+Display inline
+Display inline-block
+Display none (Desaparece o elemento)
