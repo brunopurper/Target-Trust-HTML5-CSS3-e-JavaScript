@@ -61,3 +61,20 @@ header div {
     color: darkgray;
 
 }
+
+/* ==================== conteúdo do site  ========================== */ 
+
+.container {
+  border: 1px solid green;
+  width: 1170px;
+  height: calc(100% - 105px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  border: 1px solid red;
+  width: 100%;
+  color: var(--cor-menu);
+}

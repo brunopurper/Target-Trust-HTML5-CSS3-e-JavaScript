@@ -1,0 +1,15 @@
+#redes-sociais {
+    border: 1px solid yellow;
+}
+
+#redes-sociais img {
+    width: 65px;
+    border-radius: 50%;
+    padding: 3px ;
+
+}
+
+#redes-sociais img:hover {
+    background-color: white ;
+    cursor: pointer;
+}
