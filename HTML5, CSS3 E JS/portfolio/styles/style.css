@@ -8,6 +8,12 @@
   --azul-escuro: #1f2235;
   --cor-menu-hover: #ff4a57;
   --cor-menu: #ffffff;
+  --cor-skills: #2222fa;
+  --barra-vazia:rgba(54,80,280,9);
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 html,body {
@@ -78,7 +84,7 @@ header div {
 }
 
 section {
-  /* border: 1px solid red; */
+  /*border: 1px solid red;*/ 
   width: 100%;
   color: var(--cor-menu);
 }
@@ -106,9 +112,10 @@ aside:last-child {
 
 }
 
+
 .bruno:hover {
   transform: rotate(0deg);
   transition-delay: 90ms;
   transition-duration: 260ms;
-  cursor: auto;
 }
+
