@@ -104,5 +104,6 @@ aside:last-child {
 
 .bruno:hover {
   transform: rotate(0deg);
+  transition-delay: 200ms;
   cursor: auto;
 }
