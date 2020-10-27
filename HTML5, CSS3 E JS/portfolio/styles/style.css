@@ -65,7 +65,7 @@ header div {
 /* ==================== conteúdo do site  ========================== */ 
 
 .container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 1170px;
   height: calc(100% - 105px);
   margin: 0 auto;
@@ -74,7 +74,28 @@ header div {
 }
 
 section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   color: var(--cor-menu);
+}
+
+aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside:first-child {
+  width: 660px;
+  margin-right: 100px;
+}
+
+aside:last-child {
+  width: 400px;
+}
+
+.bruno {
+  width: 80%;
+  background: white;
+  padding: 10px 10px 80px 10px;
+
 }
