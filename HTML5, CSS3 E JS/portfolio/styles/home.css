@@ -22,6 +22,7 @@
 
 #redes-sociais img:hover {
     background-color: grey;
+    transition-delay: 70ms;
     cursor: pointer;
 }
 
