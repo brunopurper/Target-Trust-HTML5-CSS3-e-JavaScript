@@ -97,5 +97,6 @@ aside:last-child {
   width: 80%;
   background: white;
   padding: 10px 10px 80px 10px;
+  transform: rotate(6deg);
 
 }
