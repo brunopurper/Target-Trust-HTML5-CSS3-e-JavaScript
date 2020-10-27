@@ -99,4 +99,10 @@ aside:last-child {
   padding: 10px 10px 80px 10px;
   transform: rotate(6deg);
 
+
+}
+
+.bruno:hover {
+  transform: rotate(0deg);
+  cursor: auto;
 }
