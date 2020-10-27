@@ -10,6 +10,10 @@
   --cor-menu: #ffffff;
 }
 
+html,body {
+  height: 100%;
+}
+
 body {
   background: var(--azul-medio);
   margin: 0;
@@ -67,7 +71,7 @@ header div {
 .container {
   /* border: 1px solid green; */
   width: 1170px;
-  height: calc(100% - 105px);
+  height: calc(100% - 104px);
   margin: 0 auto;
   display: flex;
   align-items: center;
