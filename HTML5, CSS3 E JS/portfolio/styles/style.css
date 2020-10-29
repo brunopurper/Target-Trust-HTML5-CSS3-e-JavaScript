@@ -178,8 +178,8 @@ aside:last-child {
 }
 
 .certificados-quadrado:hover{
-  transform: scale(1.180) rotate(360deg);
-  transition: 1s;
+  transform: scale(1.170) rotate(180deg);
+  transition: 1.5s;
 
 }
 
