@@ -16,13 +16,15 @@
     border-radius: 50%;
     padding: 2px ;
     background-color: white;
- 
+    transition: 0.5s;
 
 }
 
 #redes-sociais img:hover {
     background-color: grey;
     cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 #redes-sociais a {

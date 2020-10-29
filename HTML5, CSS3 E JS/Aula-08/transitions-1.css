@@ -1,0 +1,30 @@
+div {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+#div-1{
+    transition:border-radius 1s , background 1s, margin-left 4s; ;
+}
+#div-1:hover {
+    background: red;
+    border-radius: 50%;
+    margin-left: 200px;
+    transition:  border-radius 1s , background 1s, margin-left 4s;
+    border: 4px dashed violet;
+
+}
+
+
+#div-2 {
+    background: yellow;
+    transition: transform 0.5s;
+}
+
+#div-2:hover {
+    transform: rotate(170deg);
+    transition: transform 1s;
+}

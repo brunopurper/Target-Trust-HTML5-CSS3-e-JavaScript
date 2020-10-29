@@ -7,6 +7,20 @@ div {
 #div-1 {
     transform: translate(20px);
 }
-#div-2 {
+#div-2:hover {
     transform: rotate(9deg);
+}
+
+#div-3 {
+    transform: skew(10deg, 10deg);
+}
+
+#div-4:hover {
+    transform: scale(1.1);
+    
+}
+#div-5:hover {
+    transform: scale(1.1) rotate(30deg);
+
+
 }

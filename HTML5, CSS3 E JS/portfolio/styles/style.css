@@ -12,9 +12,9 @@
   --barra-vazia:rgba(54,80,280,9);
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 html,body {
   height: 100%;
@@ -52,10 +52,13 @@ header div {
   display: inline-block;
   text-transform: capitalize;
   cursor: pointer;
+  transition: 0.9s;
 }
 
 #menu a:hover {
   color: var(--cor-menu-hover);
+  transform: none;
+  transition: 0.5s;
 }
 
 #menu a.ativo {
@@ -69,7 +72,7 @@ header div {
 
 #menu .ativo:hover {
     color: darkgray;
-
+    transition: 05.s;
 }
 
 /* ==================== conteúdo do site  ========================== */ 
@@ -77,7 +80,7 @@ header div {
 .container {
   /* border: 1px solid green; */
   width: 1170px;
-  height: calc(100% - 104px);
+  height: calc(100% - 150px);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -108,6 +111,7 @@ aside:last-child {
   background: white;
   padding: 10px 10px 80px 10px;
   transform: rotate(6deg);
+  transition: 290ms;
 
 
 }
