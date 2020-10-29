@@ -149,7 +149,7 @@ aside:last-child {
   transform: scale(1.3190);
   transition: 0.2s;
   cursor: pointer;
-  
+
 
 
 }
@@ -164,6 +164,7 @@ aside:last-child {
 #certificados h1 {
   text-align: center;
   font-size: 30px;
+  padding-bottom: 50px;
 }
 
 .certificados-quadrado {
