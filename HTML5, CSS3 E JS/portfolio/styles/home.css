@@ -16,7 +16,10 @@
     border-radius: 50%;
     padding: 2px ;
     background-color: white;
+    transform:  scale(1);
     transition: 0.5s;
+
+
 
 }
 
