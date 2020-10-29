@@ -112,6 +112,8 @@ aside:last-child {
   padding: 10px 10px 80px 10px;
   transform: rotate(6deg);
   transition: 290ms;
+  box-shadow: 4px 4px 40px 4px var(--azul-escuro);
+  border-radius: 4px;
 
 
 }
