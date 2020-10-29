@@ -12,9 +12,9 @@
   --barra-vazia:rgba(54,80,280,9);
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0px;
-} */
+}
 
 html,body {
   height: 100%;

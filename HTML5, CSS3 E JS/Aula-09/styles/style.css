@@ -1,0 +1,38 @@
+div {
+    border: 2px solid purple;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+
+
+}
+
+
+#div-1 {
+    animation-name:gira ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+
+#div-2:hover {
+    animation-name: cresce;
+    animation-duration: 2s;
+    /* animation-timing-function: steps(6); */
+
+}
+
+
+@keyframes gira {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes cresce {
+    to {
+        width: 500px;
+    }
+}
