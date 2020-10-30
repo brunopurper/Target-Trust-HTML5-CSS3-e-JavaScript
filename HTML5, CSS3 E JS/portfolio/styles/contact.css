@@ -28,7 +28,13 @@
   .contact-direita {
     width: 555px;
     margin-top: 36px;
+    transition: 0.5s;
   }
+
+  .contact-direita:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
   
   iframe {
     padding-left: 60px;
@@ -82,6 +88,7 @@
     display: inline-block;
     cursor: pointer;
     text-align: center;
+    transition: 1s;
   }
   
   .p-form{

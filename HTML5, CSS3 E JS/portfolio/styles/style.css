@@ -179,6 +179,8 @@ aside:last-child {
   height: auto;
   padding: 5px;
   display: inline-block;
+  transition: 0.9s;
+
 }
 
 
