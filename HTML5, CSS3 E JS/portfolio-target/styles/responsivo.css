@@ -9,29 +9,49 @@
     
     h1 {
         font-size: 28px;
+
+ 
     }
 
     p {
+        text-align: center;
         font-size: 14px;
+
     }
     
     section {
         width: 100%;
+        position: absolute;
+    }
+
+    #redes-sociais {
+        text-align: center;
+        margin-top: 0;
     }
 
     .bruno {
-        width: 40%;
+        width: 35%; 
+        padding: 0;
         display: flex;
         margin: 0 auto;
+        background: none;
+        border-radius: 50%;
+        box-shadow: none;
+        transform: none;
+
     }
     aside {
         width: 100% !important;
         margin: 0 !important;
+        position: relative;
     }
 
     #nome {
         font-size: 28px;
         width: 275px;
+        margin: auto;
+        display: flex;       
+        animation: escrever 2s steps(30),cursor_piscando 2s;
 
     }
 
