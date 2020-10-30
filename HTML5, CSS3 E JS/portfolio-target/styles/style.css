@@ -75,6 +75,29 @@ header div {
     transition: 05.s;
 }
 
+#burger {
+  border: 1px solid white;
+  display: none;
+  width: 40px;
+  height: 32px;
+  padding: 8px 4px 0 4px ; 
+  float: right;
+  margin-right: 12px;
+}
+
+#burger div {
+  width: 80%;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+
+
+}
+
+#burger:active div:nht-child(2) {
+  width: 60%;
+}
+
+
 /* ==================== conteúdo do site  ========================== */ 
 
 .container {

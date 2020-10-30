@@ -5,7 +5,10 @@
     --cor-menu: #ffffff;
   }
 
-
+@font-face{
+    font-family:commando;
+    src: url(../assets/fonts/commando.ttf);
+}
 #redes-sociais {
     /* border: 1px solid green; */
     margin-top: 100px;
@@ -90,4 +93,20 @@
     50% {
         border-right: none;
     }
+}
+
+.logo-bruno {
+    display: inline;
+    font-family: commando;
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+    font-size: 45px;
+    height: 103px;
+    width: 43px;
+}
+
+.logo-bruno:hover {
+    color: var(--cor-menu-hover);
+    cursor: pointer;
 }
