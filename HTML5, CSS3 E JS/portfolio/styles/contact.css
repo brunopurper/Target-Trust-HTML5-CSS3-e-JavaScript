@@ -26,9 +26,9 @@
   }
   
   .contact-direita {
+    transition: 0.5s;
     width: 555px;
     margin-top: 36px;
-    transition: 0.5s;
   }
 
   .contact-direita:hover{
