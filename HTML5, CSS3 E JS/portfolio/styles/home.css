@@ -109,4 +109,7 @@
 .logo-bruno:hover {
     color: var(--cor-menu-hover);
     cursor: pointer;
+    transition: 0.5s;
+    
+    
 }

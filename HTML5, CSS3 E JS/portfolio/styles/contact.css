@@ -1,0 +1,95 @@
+.container {
+    /* border: 1px solid green; */
+    width: 1170px;
+    height: calc(105% - 255px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  #contato {
+    width: 600px;
+    /* border: 1px solid green;  */
+    display: flex;
+  
+  }
+  
+  #contato2{
+    text-align: center;
+    padding-left: 120px;
+  }
+  
+  #contato-form {
+    display: contents;
+  
+  
+  }
+  
+  .contact-direita {
+    width: 555px;
+    margin-top: 36px;
+  }
+  
+  iframe {
+    padding-left: 60px;
+  
+  }
+  #mapa { 
+    display: flex;
+    padding-left: 20px;
+  }
+  
+  
+  input {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: white solid 1px;
+    background-color: transparent;
+    color: white;
+    font-family: Poppins;
+    width: 350px;
+  }
+  
+  textarea {
+    color: white;
+    text-align: center;
+    border: white solid 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Poppins;
+    width: 350px;
+    resize: none;
+    
+  }
+  
+  button {
+    margin-top:25px ;
+    border-radius: 20px;
+    background: var(--azul-escuro);
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 90;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid var(--azul-medio) 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .p-form{
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }

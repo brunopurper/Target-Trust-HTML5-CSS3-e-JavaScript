@@ -16,6 +16,15 @@
   width: 0px;
 }
 
+.container {
+  /* border: 1px solid green; */
+  width: 1170px;
+  height: calc(105% - 255px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
 html,body {
   height: 100%;
 }
@@ -78,14 +87,7 @@ header div {
 
 /* ==================== conteúdo do site  ========================== */ 
 
-.container {
-  /* border: 1px solid green; */
-  width: 1170px;
-  height: calc(105% - 255px);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
+
 
 section {
   /* border: 1px solid green;  */
@@ -94,6 +96,7 @@ section {
 }
 
 aside {
+  /* border: 1px solid green;  */
   display: inline-block;
   vertical-align: top;
 }
@@ -135,51 +138,53 @@ aside:last-child {
 }
 
 .img-more {
-  width: 50px;
-  height: 50px;
+
+  height: 60px;
   display: flex;
   margin: auto;
   transition: 0.8s;
-
+  animation: blinker 1.5s linear infinite;
 
 
 }
 
 .img-more:hover {
-  transform: scale(1.3190);
-  transition: 0.2s;
+  /* transform: scale(1.3190);
+  transition: 0.2s; */
   cursor: pointer;
-
-
-
 }
+
+@keyframes blinker {
+  50% {
+    transform: scale(1.2);
+  }
+}
+
 
 #certificados {
   /* border: 1px solid green; */
-  width: 1170px;
-  height: calc(600px);
+  width: 1180px;
+  height: calc(588px);
   margin: 0 auto;
 }
 
 #certificados h1 {
   text-align: center;
   font-size: 30px;
-  padding-bottom: 50px;
 }
 
 .certificados-quadrado {
   /* border: 1px solid green; */
-  width: 485px;
-  height: 360px;
+  width: 500px;
+  height: auto;
+  padding: 5px;
   display: inline-block;
 }
-.certificados-quadrado{
-  transition: 0.9s;
-}
+
 
 .certificados-quadrado:hover{
-  transform: scale(1.170) rotate(180deg);
-  transition: 1.5s;
+  transform: scale(1.1);
+  transition: 0.9s;
   cursor: pointer;
 
 }
@@ -188,3 +193,28 @@ aside:last-child {
   text-align: center;
 }
 
+
+
+
+.certificados-page {
+  /* border: 1px solid green; */
+  width: 1180px;
+  height: calc(100% - 140px);
+  margin: 0 auto;
+}
+
+#certificados-escola{
+  text-align: center;
+  color: #ffffff;
+}
+
+.certificado {
+  /* border: 1px solid green; */
+  display: inline-block;
+
+  /* text-align: center; */
+}
+
+.grupo-certificados {
+  text-align: center;
+}
