@@ -164,3 +164,186 @@
         text-align: center;
     }
 }
+
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+
+
+    header{
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+
+ 
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+
+    }
+    
+    section {
+        width: 100%;
+        position: absolute;
+    }
+
+    #redes-sociais{
+        width: 100%;
+
+  
+    }
+
+    #redes-sociais img {
+        width: 35px;
+        height: 35px;
+        padding: 2px ;
+        background-color: white;
+        transform:  scale(1);
+        transition: 0.5s;
+
+    
+    }
+
+    .bruno {
+        width: 35%; 
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+        background: none;
+        border-radius: 50%;
+        box-shadow: none;
+        transform: none;
+
+    }
+    aside {
+        width: 100% !important;
+        margin: 0 !important;
+        position: relative;
+    }
+
+    #nome {
+        font-size: 28px;
+        width: 275px;
+        margin: auto;
+        display: flex;       
+        animation: escrever 2s steps(30),cursor_piscando 2s;
+
+    }
+
+    @keyframes escrever {
+        from {
+    
+            width: 0%;
+        }
+        
+        to{
+            width: 275px;
+        }
+    }
+    
+    
+    @keyframes cursor_piscando {
+        from,
+        to {
+            border-right: 3px solid white;
+     
+        }
+    
+        50% {
+            border-right: none;
+        }
+    }
+
+
+
+    header div {
+        width: 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+    #burger {
+        display: block;
+    }
+
+    .img-more {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .more {
+        display: table-cell;
+        padding-top: 12px;
+    }
+
+
+
+    #certificados {
+        width: 100%;
+
+    }
+
+
+
+    .certificados-quadrado1 {
+        width: 250px;
+    }
+    .certificados-page {
+        width: 100%;
+    }
+
+    .container1{
+        display: none;
+
+    }
+
+    #contato{
+        display: none;
+    }   
+
+    #contato2{
+
+        display: none;
+    }
+
+    .contact-direita {
+        display: none;
+    }
+
+    .responsive-contact{
+        color: white;
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+
+    .form01{
+        width: 100;
+        margin: 0 auto;
+        margin-top: 50px;
+        }
+
+    button {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .talktome {
+        padding-top: 30px;
+        display: block;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+    }
+}
