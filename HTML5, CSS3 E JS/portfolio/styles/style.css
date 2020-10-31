@@ -242,3 +242,7 @@ aside:last-child {
 .responsive-contact {
   display: none;
 }
+
+a {
+  text-decoration: none;
+}
