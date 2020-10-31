@@ -246,3 +246,7 @@ aside:last-child {
 a {
   text-decoration: none;
 }
+
+.talktome{
+  display: none;
+}

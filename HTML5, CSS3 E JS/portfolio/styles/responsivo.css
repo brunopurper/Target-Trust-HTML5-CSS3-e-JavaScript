@@ -156,7 +156,10 @@
         margin: 0 auto;
     }
 
-    h1 {
+    .talktome {
+        padding-top: 30px;
+        display: block;
+        margin: 0 auto;
         color: white;
         text-align: center;
     }
