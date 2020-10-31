@@ -1,0 +1,121 @@
+@media screen and (max-width: 900px) {
+
+
+    .container {
+        width: 100%;
+    }
+
+
+    
+    h1 {
+        font-size: 28px;
+
+ 
+    }
+
+    p {
+        text-align: center;
+        font-size: 14px;
+
+    }
+    
+    section {
+        width: 100%;
+        position: absolute;
+    }
+
+    #redes-sociais {
+        text-align: center;
+        margin-top: 0;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .bruno {
+        width: 35%; 
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+        background: none;
+        border-radius: 50%;
+        box-shadow: none;
+        transform: none;
+
+    }
+    aside {
+        width: 100% !important;
+        margin: 0 !important;
+        position: relative;
+    }
+
+    #nome {
+        font-size: 28px;
+        width: 275px;
+        margin: auto;
+        display: flex;       
+        animation: escrever 2s steps(30),cursor_piscando 2s;
+
+    }
+
+    @keyframes escrever {
+        from {
+    
+            width: 0%;
+        }
+        
+        to{
+            width: 275px;
+        }
+    }
+    
+    
+    @keyframes cursor_piscando {
+        from,
+        to {
+            border-right: 3px solid white;
+     
+        }
+    
+        50% {
+            border-right: none;
+        }
+    }
+
+
+
+    header div {
+        width: 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+    #burger {
+        display: block;
+    }
+
+    .img-more {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .more {
+        text-align: center;
+        display: table-cell;
+    }
+
+
+
+    #certificados {
+        width: 100%;
+
+    }
+
+    .certificados-quadrado{
+        width: 300px;
+    }
+
+}
