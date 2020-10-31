@@ -191,6 +191,24 @@ aside:last-child {
 
 }
 
+.certificados-quadrado1 {
+  /* border: 1px solid green; */
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  display: inline-block;
+  transition: 0.9s;
+
+}
+
+
+.certificados-quadrado1:hover{
+  transform: scale(1.1);
+  transition: 0.9s;
+  cursor: pointer;
+
+}
+
 .certificados-center {
   text-align: center;
 }
@@ -219,4 +237,8 @@ aside:last-child {
 
 .grupo-certificados {
   text-align: center;
+}
+
+.responsive-contact {
+  display: none;
 }
