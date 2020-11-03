@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1170px) {
 
 
     .container {
@@ -9,8 +9,11 @@
     
     h1 {
         font-size: 28px;
+        display: none;
+    }
 
- 
+    .talktome {
+        display: none;
     }
 
     p {
@@ -100,10 +103,12 @@
         display: flex;
         margin: 0 auto;
         text-align: center;
+  
     }
 
     .more {
         display: table-cell;
+        padding: 0;
     }
 
 
@@ -113,7 +118,11 @@
 
     }
 
-
+    .h1-show {
+        display: block;
+        text-align: center;
+        color: white;
+    }
 
     .certificados-page {
         width: 100%;
@@ -163,12 +172,16 @@
         color: white;
         text-align: center;
     }
-}
 
+    .grupo-certificados {
+    }
+}
+/* ============================= 700PX ===================================================================== */
 
 @media screen and (max-width: 700px) {
     .container {
-        width: 100%;
+        width: calc(100% - 40px);
+
     }
 
 
@@ -199,7 +212,7 @@
   
     }
 
-    #redes-sociais img {
+    /* #redes-sociais img {
         width: 35px;
         height: 35px;
         padding: 2px ;
@@ -208,7 +221,7 @@
         transition: 0.5s;
 
     
-    }
+    } */
 
     .bruno {
         width: 35%; 
@@ -279,27 +292,34 @@
         display: flex;
         margin: 0 auto;
         text-align: center;
+   
     }
 
     .more {
         display: table-cell;
-        padding-top: 12px;
+        padding: 0;
     }
 
 
 
     #certificados {
         width: 100%;
+        margin: 0 auto;
+        text-align: center;
+
 
     }
 
 
 
     .certificados-quadrado1 {
-        width: 250px;
+        width: 350px;
+        display: flex;
+        margin: 0 auto;
     }
     .certificados-page {
         width: 100%;
+        
     }
 
     .container1{

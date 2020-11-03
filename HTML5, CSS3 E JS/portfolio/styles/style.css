@@ -134,6 +134,7 @@ aside:last-child {
   display: flex;
   margin: 0 auto;
   width: 1170px;
+  padding: 0;
   
 }
 
@@ -165,7 +166,7 @@ aside:last-child {
   /* border: 1px solid green; */
   width: 1180px;
   height: calc(588px);
-  margin: 0 auto;
+  margin: 70px auto;
 }
 
 #certificados h1 {
@@ -249,4 +250,30 @@ a {
 
 .talktome{
   display: none;
+}
+
+.h1-show {
+  display: none;
+}
+
+#burger {
+  border: 1px solid white;
+  display: none;
+  width: 40px;
+  height: 32px;
+  padding: 8px 4px 0 4px ; 
+  float: right;
+  margin-right: 12px;
+}
+
+#burger div {
+  width: 80%;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+
+
+}
+
+#burger:active div:nht-child(2) {
+  width: 60%;
 }
