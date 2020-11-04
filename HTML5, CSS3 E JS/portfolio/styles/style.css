@@ -12,9 +12,9 @@
   --barra-vazia:rgba(54,80,280,9);
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
-}
+} */
 
 .container {
   /* border: 1px solid green; */
@@ -86,7 +86,6 @@ header div {
 }
 
 /* ==================== conteúdo do site  ========================== */ 
-
 
 
 section {

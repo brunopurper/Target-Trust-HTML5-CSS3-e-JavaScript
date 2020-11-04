@@ -2,7 +2,11 @@
 
 
     .container {
-        width: 100%;
+        width:100%;
+        height: calc(105% - 255px );
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
     }
 
     header {
@@ -183,7 +187,7 @@
 
 @media screen and (max-width: 700px) {
     .container {
-        width: calc(100% - 40px);
+        width: calc(100% - 0px);
 
     }
 
