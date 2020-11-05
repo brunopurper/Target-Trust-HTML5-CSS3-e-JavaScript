@@ -1,6 +1,10 @@
 @media screen and (max-width: 900px) {
 
 
+    
+    header div {
+        width: 100%;
+    }
     .container {
         width: 100%;
     }
@@ -22,11 +26,16 @@
     section {
         width: 100%;
         position: absolute;
+        padding: 14px;
     }
 
     #redes-sociais {
         text-align: center;
         margin-top: 0;
+    }
+
+    #redes-sociais a {
+        margin-right: 30px;
     }
 
     .bruno {
@@ -44,6 +53,7 @@
         width: 100% !important;
         margin: 0 !important;
         position: relative;
+        text-align: center;
     }
 
     #nome {
@@ -94,6 +104,11 @@
         display: block;
     }
 
+    /* contato */
+
+    iframe {
+        display: none;
+    }
 
 
 
