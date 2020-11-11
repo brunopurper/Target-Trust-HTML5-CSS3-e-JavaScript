@@ -192,6 +192,7 @@ section .container {
     background: var(--azul-medio);
     height: 100%;
     padding-bottom: 10px;
+    width: 100%;
 
 }
 
