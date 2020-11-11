@@ -159,7 +159,7 @@ section .container {
     font-size: 58px;
     overflow: hidden;
     white-space: nowrap;
-    animation: escrever 2s steps(30) ,cursor_piscando .5s ;
+    animation: escrever 2s steps(30) ,cursor_piscando .5s  ;
     color: white;
 }
 
@@ -227,4 +227,11 @@ section .container {
     transform: rotate(0deg);
     transition-delay: 90ms;
     transition-duration: 260ms;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: inherit;
+    width: 200px;
+    height: 200px;
 }
