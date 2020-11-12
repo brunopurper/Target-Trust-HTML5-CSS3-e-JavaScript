@@ -198,6 +198,7 @@
 @media screen and (max-width: 500px) {
 
     .foto{
+        margin-top: 14px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -309,6 +310,9 @@
         padding: 0 10px
     }
 
+    .direita {
+        margin-bottom: 60px;
+    }
 
 
 
