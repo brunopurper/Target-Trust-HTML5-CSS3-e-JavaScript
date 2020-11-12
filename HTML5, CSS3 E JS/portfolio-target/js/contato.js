@@ -19,11 +19,19 @@ function validaForm() {
         return false;
     }
 
+    var regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+    if(regex.test(email.value) == false ) {
+        erro.innerHTML = 'Digite um e-mail válido *';
+        email.focus();
+        return false;
+    }
+
     if (mensagem.value == '') {
         erro.innerHTML = 'Preencha uma mensagem *';
         mensagem.focus();
         return false;
     }
-    
+
     return false;
 }
