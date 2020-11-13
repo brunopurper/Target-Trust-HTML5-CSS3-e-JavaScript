@@ -1,9 +1,9 @@
 @media screen and (max-width: 900px) {
 
     .logo {
-        display: none;
+        display: flex;
         align-items: center;
-        font-size: 1.5em;
+        font-size: 1.8em;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -17,28 +17,28 @@
         transition: 0.5s;
     }
     .nav {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
+        display: none;
+        width: 100%;
+        flex-direction: column;
     }
-    
-    .nav ul {
+
+    .nav.show {
         display: flex;
+    }
+
+
+    .nav ul {
         text-decoration: none;
         list-style: none;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
-    
     }
+    
     
     .nav li {
         padding: 14px;
         font-size: 18px;
         color: white;
-        box-sizing: border-box;
     
     }
     
@@ -46,7 +46,6 @@
         text-decoration: none;
         color: white;
         padding: 12px 20px;
-        box-sizing: border-box;
 
 
     }
@@ -192,8 +191,29 @@
         
     }
     
-
+    #burger {
+        display: block;
+        border: 1px solid white;
+        width: 40px;
+        height: 32px;
+        padding: 8px 4px 0 4px ; 
+        margin-right: 12px;
+      }
+      
+      #burger div {
+        width: 100%;
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+        
 }
+
+    .menu-burger {
+        display: block;
+        margin: auto 0;
+    }
+
+
+ 
 
 @media screen and (max-width: 500px) {
 
@@ -216,7 +236,7 @@
     }
     .nav {
         margin: 0 auto;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
@@ -303,8 +323,8 @@
         display: flex;
         list-style: none;
         text-decoration: none;
-    
     }
+    
     .redes-sociais li {
         display: flex;
         padding: 0 10px
@@ -314,6 +334,4 @@
         margin-bottom: 60px;
     }
 
-
-
-}
+}}

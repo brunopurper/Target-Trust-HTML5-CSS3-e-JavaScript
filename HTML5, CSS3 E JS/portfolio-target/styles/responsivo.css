@@ -1,7 +1,6 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 962px) {
 
 
-    
     header div {
         width: 100%;
     }
@@ -56,7 +55,7 @@
         text-align: center;
     }
 
-    #nome {
+    #nome1 {
         font-size: 28px;
         width: 275px;
         margin: auto;
@@ -97,6 +96,19 @@
 
     #menu {
         display: none;
+        float: none;
+        margin-top: 10px;
+        position: absolute;
+        width: 100%;
+    }
+
+    #menu a {
+        display: block;
+        text-align: center;
+    }
+
+    #menu.mostraMenu {
+        display: block;
     }
 
 

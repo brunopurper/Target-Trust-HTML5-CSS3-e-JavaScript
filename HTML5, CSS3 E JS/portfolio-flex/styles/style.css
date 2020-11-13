@@ -63,6 +63,7 @@ header .container {
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
 .nav ul {
@@ -251,3 +252,6 @@ section .container {
     width: 200px;
     height: 200px;
 }
+
+
+  

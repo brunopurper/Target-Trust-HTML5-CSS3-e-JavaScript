@@ -98,7 +98,15 @@
     }
 
     #menu {
-        display: none;
+        /* display: none; */
+        
+        float: none;
+        
+    }
+
+    #menu a {
+        display: block;
+        text-align: center;
     }
 
 

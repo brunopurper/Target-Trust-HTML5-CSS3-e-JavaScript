@@ -1,0 +1,11 @@
+#quadrado {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.bolinha {
+    border-radius: 50%;
+    background: crimson;
+    
+}
