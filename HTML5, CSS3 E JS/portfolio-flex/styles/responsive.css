@@ -242,9 +242,7 @@
         box-sizing: border-box;
     }
 
-    .nav.show {
-        display: flex;
-    }
+
     
     .nav ul {
         font-size: 9px;
@@ -338,9 +336,6 @@
         margin-bottom: 60px;
     }
 
-    .menu-burger {
-        display: block;
-        margin: auto 0;
-    }
+
 
 }}
