@@ -1,0 +1,134 @@
+/* Definicao de fonte customizada */
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+:root {
+  /* variaveis em CSS */
+  --azul-medio: #24263B;
+  --azul-escuro: #1F2235;
+  /* --azul-escuro: #FF9900; */
+  --cor-menu-hover: #FF4A57;
+  --cor-menu: #FFFFFF;
+}
+
+* {
+
+}
+
+body {
+  background: var(--azul-medio);
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+header {
+  background: var(--azul-escuro);
+  /* não precisamos mais pois o elemento vai crescer com o conteudo da DIV */
+  /* min-height: 70px; */
+  /* adicionamos uma "gordurinha em cima e embaixo" para manter a distancia proporcional */
+  padding: 30px 0;
+
+  /* workaround ("gambiarra") - vai corrigir o problema do scroll (nao pintar o fundo do header) */
+  display: inline-table;
+  /* porém, na tela cheia não vai esticar em 100% */
+  /* precisamos FORÇAR o header a ter uma largura de 100% da tela */
+  width: 100%;
+}
+
+header div {
+  /* border: 1px solid red; */
+  width: 1170px;
+  margin: 0 auto; /* centraliza a div na tela */
+}
+
+/* ================== ESTRUTURA DO MENU ================== */
+#menu {
+  /* border: 1px solid white; */
+  float: right;
+}
+#menu a {
+  color: var(--cor-menu);
+  text-decoration: none;
+  padding: 11px 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+#menu a:hover {
+  color: var(--cor-menu-hover);
+}
+
+#menu a.ativo {
+  background: var(--cor-menu-hover);
+  color: var(--cor-menu);
+}
+
+#burger {
+  border: 1px solid white;
+  /* por padrao o burger NAO aparece na tela */
+  display: none;
+  width: 40px;
+  height: 32px;
+  padding: 8px 4px 0 4px;
+  float: right;
+  margin-right: 4px;
+}
+
+#burger div {
+  width: 80%;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+/* active assim como o hover é uma pseudo propriedade (quando o usuario CLICA / ATIVA o link) */
+#burger:active div:nth-child(2) {
+  width: 60%;
+}
+
+
+/* ================== configuração do CONTEÚDO DO SITE ================== */
+.container {
+  /* border: 1px solid green; */
+  width: 1170px;
+  /* height: 100%; */
+  height: calc(100% - 115px);
+
+  margin: 0 auto;
+
+  /* FLEX: Flexivel - suporta novas resolucoes e formatos e trabalha sempre com posicionamento dos filhos em relação
+     aos pais */
+  display: flex;
+  /* aling-itens: onde itens são os filhos */
+  align-items: center;
+}
+
+section {
+  /* border: 1px solid red; */
+  width: 100%;
+  color: var(--cor-menu);
+}
+
+aside {
+  display: inline-block;
+  /* alinha os elementos pelo TOPO */
+  vertical-align: top;
+}
+
+aside:first-child {
+  width: 660px;
+  margin-right: 100px;
+}
+
+aside:last-child {
+  width: 400px;
+}
+
+
+
+
+
+
+
+
